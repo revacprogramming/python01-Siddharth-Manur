@@ -1,10 +1,15 @@
-
+def input_two_numbers():
+    a=int(input("Enter 1st number?"))
+    b=int(input("Enter 2nd number?"))
+    return a,b
 def add(a, b):
-    pass  # ...
+    return a+b
 
 
 def output(a, b, sum):
-    pass  # ...
+    print(a,end="")
+    print("+",end="")
+    print(b,"is",sum)
 
 
 def main():
@@ -12,7 +17,4 @@ def main():
     sum = add(a, b)
 
     output(a, b, sum)
-
-
-if __name__ == '__main__':
-    main()
+main()
